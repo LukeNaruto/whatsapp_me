@@ -10,7 +10,7 @@ extension ExtendedTheme on BuildContext {
 class CustomThemeExtension extends ThemeExtension<CustomThemeExtension> {
   static const ligthtMode = CustomThemeExtension(
     circleImageColor: Color(0xFF25D366),
-    greyColor: Coloors.greenLight,
+    greyColor: Coloors.greyLight,
     blueColor: Coloors.blueLight,
     langBtnBgColor: Color(0xFFF7F8FA),
     langBtnHighlightColor: Color(0xFFE8E8ED),
@@ -18,7 +18,7 @@ class CustomThemeExtension extends ThemeExtension<CustomThemeExtension> {
 
   static const darkMode = CustomThemeExtension(
     circleImageColor: Coloors.greenDark,
-    greyColor: Coloors.greenDark,
+    greyColor: Coloors.greyDark,
     blueColor: Coloors.blueDark,
     langBtnBgColor: Color(0xFF182229),
     langBtnHighlightColor: Color(0xFF09141A),
