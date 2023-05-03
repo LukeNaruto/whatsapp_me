@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:whatsapp_me/common/extension/custom_theme_extension.dart';
 import 'package:whatsapp_me/common/utils/coloors.dart';
 
@@ -17,6 +18,12 @@ ThemeData darkTheme() {
         splashFactory: NoSplash.splashFactory,
         elevation: 0,
         shadowColor: Colors.transparent,
+      ),
+    ),
+    appBarTheme: const AppBarTheme(
+      systemOverlayStyle: SystemUiOverlayStyle(
+        statusBarBrightness: Brightness.light,
+        statusBarColor: Colors.transparent,
       ),
     ),
     bottomSheetTheme: const BottomSheetThemeData(
